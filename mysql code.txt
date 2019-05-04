@@ -1,0 +1,10 @@
+create database pybank;
+use pybank;
+create table users(id int,username varchar(30),password varcahr(30));
+create table actions(id int,action varchar(30),date date);
+create table customers(id int,name varchar(30),phone int);
+create table customers_mode(id int,money int);
+insert into users values(0,"someone","pass123");
+insert into users values(1,"someone_else","password");
+insert into customers values(0,"someone",504573000);
+insert into customers_mode values(0,100);
